@@ -7,7 +7,7 @@ class GoogleResponse():
         self.url = response_url
 
 class GoogleRequest():
-    google_url = 'https://www.google.by/search?q='
+    google_url = 'https://www.google.com/search?q='
     start = '&start='
     def __init__(self,search = 'google',search_depth = 1):
         self.search = search
